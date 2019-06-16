@@ -1,0 +1,25 @@
+setting:
+
+~$ ./configure
+~$ make
+~$ make install 
+
+luu y:
+
+:~ $ bonei TÙY CHỌN
+-i, tập tin = tên tập tin FILENAME với danh sách ip
+-p, mậtprotatio = PROTO udp (mặc định), icmp hoặc tcp
+-r, ví dụ (mặc định)
+-s, sippayload_size = SIZE kích thước của paylod, (mặc định: 32)
+-o, tênststats_file = tên tệp FILENAME cho các số liệu thống kê, (mặc định: 'stats')
+-c, " (các yêu cầu tại tcp / http), 0 = vô hạn (mặc định)
+IP củaintinteger là các số nguyên theo thứ tự byte máy chủ thay vì ký hiệu chấm
+-t
+, Bí mật = URL url (mặc định: '/') (chỉ dành cho tcp / http)
+-l, sốtururl_list = tên tệp FILENAME với danh sách url (chỉ dành cho tcp / http)
+-b, siêueruseragent_list = tên tệp FILENAME với danh sách người dùng (chỉ dành cho
+thiết bị nghe tcp / http) / http, ví dụ eth1)
+-m, hèmtu = NUM đặt MTU, (mặc định 1500). Hiện tại chỉ khi sử dụng TCP.
+-f, mậtfrag = NUM đặt chế độ phân mảnh (0 = IP, 1 = TCP, mặc định: 0). Hiện tại chỉ khi sử dụng TCP.
+-v, hungverbose in các thông báo gỡ lỗi bổ sung
+-h, thông báo trợ giúp in và trợ giúp in
